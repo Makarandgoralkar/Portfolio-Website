@@ -1,0 +1,260 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.portfolio-sections{
+	height: 400px;
+	width: 100%;
+	border: 2px solid black;
+	background-color: white;
+}
+.navigation-bar{
+	position: fixed;
+	width: 100%;
+	background-color: transparent;
+	backdrop-filter: blur(10px);
+	z-index: 1;
+}
+.portfolio-sections h1{
+	margin-top: 50px;
+}
+html{
+	scroll-behavior: smooth;
+}
+.main-container{
+	position: relative;
+	top: 75px;
+}
+.brand{
+	font-size: 30px;
+	font-family: Arial Black;
+	font-variant: small-caps;
+	color: orangered;
+}
+.navmenu{
+	color: black;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	padding-left: 15px;
+}
+.navmenu:hover{
+	text-decoration: underline 2px solid black ;
+	text-underline-offset: 6px;
+
+}
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 2.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 2.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#home{
+	height: 640px;
+	background-image: url(https://miro.medium.com/v2/resize:fit:1358/1*w5W4vlki-8Y4R2Ti0mtwSw.gif);
+	background-repeat: no-repeat;
+	background-size: 45%;
+	background-position: 90% 20%;
+	border: none;
+	background-color: lightgrey;
+}
+
+#home-info{
+	position: absolute;
+	top: 20px;
+	width: 400px;
+	height: 250px;
+	font-size: 25px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.info{
+	font-weight: bolder;
+	color: lightslategray;
+}
+.designation{
+	color: orangered;
+	font-size: 25px;
+	font-weight: bolder;
+}
+.myname{
+	font-size: 35px;
+	color: yellowgreen;
+}
+.rsmbtn{
+	height: 40px;
+	width: 100px;
+	border: none;
+	margin-top: 20px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-weight: bolder;
+	background-color: royalblue;
+	color: white;
+	transition-duration: 1s;
+}
+.rsmbtn:hover{
+	background-color: white;
+	color: royalblue;
+	border: 3px solid royalblue;
+	transform: scale(1.1);
+}
+.about-section{
+	height: 640px;
+	width: 100%;
+	background-color: lightgrey;
+}
+.aboutmain{
+	height: 500px;
+	width: 100%;
+	display: flex;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+.aboutmain div{
+	height: 500px;
+	width: 50%;
+}
+.minion{
+	margin-top: 80px;
+	margin-left: 90px;
+	animation-duration: 4s;
+	animation-name: zoom;
+	animation-iteration-count: 1;
+}
+@keyframes zoom {
+	100%{
+		transform: scale(1.2);
+		border-radius: 60px;
+	}
+}
+.heading{
+	font-family: Arial Black;
+	text-align: center;
+	margin: 30px 0px;
+	font-size: 35px;
+	color: orangered;
+}
+.careerobj{
+	padding: 30px;
+}
+.careerinfo{
+	text-align: justify;
+	line-height: 40px ;
+	text-indent: 100px;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+}
+#skills{
+	height: 700px;
+	width: 100%;
+	background-color: lightgrey;
+}
+.tbl{
+	margin-left: 5%;
+}
+.tbl tr td{
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px royalblue;
+	transition-duration: 1.5s;
+}
+.skill-subheading{
+	color: orangered;
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 25px;
+	font-variant: small-caps;
+}
+.detailedskills{
+	font-size: 23px;
+	font-weight: bolder;
+	color: rgb(109, 101, 101);
+	line-height: 40px;
+	word-spacing: 3px;
+	margin-top: 20px;
+}
+
+#Project{
+			height: 100%;
+			width: 100%;
+			border: 2px solid black;
+			padding: 10px;
+		}
+.heading{
+			color: royalblue;
+			font-family: Arial Black;
+			text-align: center;
+			margin-top: 20px;
+			font-size: 35px;
+		}
+		.project-card-container{
+			padding: 20px;
+			margin-top: 20px;
+		}
+		.card-title{
+			color: orangered;
+			text-align: center;
+			font-family: sans-serif;
+			font-weight: bolder;
+		}
+		.card-title:hover{
+			text-decoration: underline 2px solid orangered;
+			text-underline-offset: 5px;
+			cursor: pointer;
+		}
+		#projects{
+			height: 900px;
+		}
+	#contact{
+	height: 700px;
+	width: 100%;
+	padding: 20px;
+}
+.contact-section{
+	height: 400px;
+	width: 90%;
+	display: flex;
+	margin-left: 40px;
+}
+.contact-child{
+	height: 400px;
+	width: 60%;
+}
+.contact-info{
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	margin-top: 70px;
+}
+.contact-info li{
+	margin-top: 20px;
+}
+.contact-form{
+	padding: 15px;
+	padding-left: 70px;
+	margin-top:50px;
+}
